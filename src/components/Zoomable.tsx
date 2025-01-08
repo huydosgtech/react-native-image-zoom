@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native';
 import { GestureDetector } from 'react-native-gesture-handler';
 import Animated from 'react-native-reanimated';
 import { useZoomable } from '../hooks/useZoomable';
-import type { ImageZoomProps, ImageZoomRef } from '../types';
+import type { ZoomableProps, ZoomableRef } from '../types';
 
 const styles = StyleSheet.create({
-  image: {
+  container: {
     flex: 1,
   },
 });
